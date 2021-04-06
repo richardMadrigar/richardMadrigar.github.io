@@ -6,7 +6,7 @@
 
 /* ESTILOS GERAIS */
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +26,6 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
 
 /*HEADER*/
 
