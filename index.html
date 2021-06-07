@@ -1,182 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="BR-pt">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Portifólio</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
 
-    <!--CABEÇALHO-->
-    <header>
+ 
 
-        <div class="container">
+    <input type="checkbox" id="ativar-dark" class="ativar-dark">
+    <div class="dark-mode">
+        <!------ CABEÇALHO ----->
+        <header>
+            <div class="container">
+                <label for="ativar-dark">
+                    <span></span>
+                </label>
 
-            <div class="linha">
-                <!-- CAIXA DE PERFIL -->
-                <div class="coluna coluna-esquerda">
-                    <figure>
-                        <img src="./assets/img/richard.jpg" alt="">
-                        <figcaption class="hidden">Richard Evangelista Madrigar</figcaption>
-                    </figure>
+                <div class="linha">
+
+                    <!-- CAIXA FOTO DE PERFIL -->
+                    <div class="coluna coluna-esquerda">
+                        <figure>
+                            <img src="./assets/img/richard.jpg" alt="Richard Madrigar">
+                            <figcaption class="hidden">Richard Evangelista Madrigar</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- INFORMAÇOES PESSOAIS -->
+                    <div class="coluna coluna-direita">
+                        <h1>Richard Evangelista Madrigar</h1>
+                        <p>Developer | Front-end | Analise e desenvolvimento</p>
+
+                        <ul>
+                            <li> <a href="mailto:Richard_madrigar99@hotmail.com"> richard_madrigar99@hotmail.com </a>
+                            </li>
+                            <li> <a href="tel:5511985737008"> (11) 98573-7008 </a></li>
+                            <li> <a href="#"> Rua Carlo Clausset, 325 - São Paulo </a></li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+        </header>
 
-                <!-- INFORMAÇOES PESSOAIS-->
-                <div class="coluna coluna-direita">
-                    <h1> Richard Evangelista Madrigar</h1>
-                    <p>Estudante</p>
+        <!------ ESTRUTURA ------>
+        <main>
+            <div class="container">
+                <div class="linha">
 
-                    <ul>
+                    <!----- CONTEUDO LADO ESQUERDO ----->
+                    <div class="coluna coluna-esquerda">
+                        <section>
+                            <h2>Perfil Profissional</h2>
+                            <p class="perfil">
+                                Cursando Analise e desenvolvimento de sistemas, focado em ser um Dev Front-end,
+                                venho cursando alguns cursos online como Udemy, Rocketseat, venho ganhando experiência
+                                em
+                                projetos reais e aplicando em meu portfolio.
+                                Minhas experiencias com projetos estão inclusos tecnologias como Html, Css, Js,
+                                React.Js, Next.Js, Node.js, MongoDb.
+                                Estou sempre atrás de novos projetos e conhecimento extras.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2>Especialidades</h2>
+                            <ul>
+                                <li>HTML 5</li>
+                                <li>CSS, SASS</li>
+                                <li>Java Script</li>
+                                <li>React Js</li>
+                                <li>Next Js</li>
+                                <li>Node.Js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h2>Cursos</h2>
+                            <ul>
+                                <li>Inglês - English Conversation Course - Cursando</li>
+                                <li>Web moderno com JS avançado, Udemy - Conclusão 2021</li>
+                                <li>NextLevel - Rocketseat - Conclusão 2021 </li>
+                                <li>Logica de Programação - SENAI - Conclusão 2019</li>
+                            </ul>
+                        </section>
+                    </div>
+
+
+                    <!------ CONTEUDO LADO DIREITO ------>
+                    <div class="coluna coluna-direita">
+                        <section>
+                            <h2>Experiências</h2>
+
+                            <ul>
+                                <li>
+                                    <h3>Professor de Tennis</h3>
+                                    <strong>Empresa: Big Ball - desde 09/2017 até 05/2021</strong>
+                                    <!-- <p>Período do empregador. de 2020 - até o momento, Localidade São Paulo</p> -->
+                                </li>
+                                <!-- <li>
+                                <h3>Facilitador de treinamento</h3>
+                                <strong>Nome da Empresa Kenzie academy - tempo integral</strong>
+                                <p>Período do empregador. de 2020 - até o momento, Localidade São Paulo</p>
+                            </li>  -->
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h2>Formação</h2>
+                            <ul>
+                                <li>
+                                    <h3>Analise em Desenvolvimento de Sistemas</h3>
+                                    <p>Faculdade - Uninove - SP</p>
+                                    <p>Cursando 3°período - Término em 07/2022 </p>
+                                </li>
+                                <!-- <li>
+                                <h3>Facilitador de treinamento <strong>01/01/2018 - 01/01/2021</strong> </h3>
+                                <p>Kenzie Academy</p>
+                            </li>  -->
+
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!------ RODAPÉ ------>
+        <footer>
+            <div class="container">
+                <nav>
+                    <ul class="info-contato">
+                        <li> <a href="mailto:Richard_madrigar99@hotmail.com"><strong>E-mail:</strong>
+                                richard_madrigar99#hotmail.com </a></li>
+                        <li> <a href="tel:5511985737008"> <strong>Telefone: </strong>(11) 98573-7008 </a></li>
+                        <li> <a href="#"> <strong>Endereço:</strong> Rua Carlo Clausset, 325, São paulo </a></li>
+                    </ul>
+                </nav>
+
+                <nav>
+                    <ul class="redes-sociais">
                         <li>
-                            <a href="mailto:richard_madrigar99@hotmail.com">richard_madrigar99@hotmail.com</a>
-                            <!-- o email que esta em amarelo é o email que redireciona para o email -->
+                            <a href="https://www.linkedin.com/in/richard-madrigar-517b0a208">
+                                <img src="./assets/img/linkedin.svg" alt="Linkdin">
+                                <p>Linkdin</p>
+                            </a>
                         </li>
                         <li>
-                            <a href="tel:5511985737008">(11) 9 8573-7008</a>
-                            <!-- em amarelo é o numero que o celular vai redirecionar  -->
+                            <a href="https://github.com/richardMadrigar">
+                                <img src="./assets/img/github-big-logo.svg" alt="Github">
+                                <p>Github</p>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Rua Carlo Clausset, 325, São paulo</a> <!--  -->
+                            <a href="https://www.instagram.com/madrigarrichard/">
+                                <img src="./assets/img/instagram.svg" alt="Instagran">
+                                <p>Instagram</p>
+                            </a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
-        </div>
-
-    </header>
-
-    <main>
-        <div class="container">
-            <div class="linha">
-                <!--CONTEUDO LADO ESQUERDO-->
-                <div class="coluna coluna esqueda">
-                    <section>
-                        <h2>Perfil Profissional</h2>
-                        <p> Carreira em evolução na área de análise e desenvolvimento de sistemas,
-                            com competência acadêmica para poder atuar com desenvolvimento web</p>
-                    </section>
-
-                    <section>
-                        <h2>Especialidades</h2>
-                        <ul>
-                            <li>HTML 5</li>
-                            <li>CSS</li>
-                            <li>Java Script</li>
-                            <li>React.Js</li>
-                            <li>Next.Js</li>
-                            <li>Node.Js</li>
-                        </ul>
-                    </section>
-                    <!--Cursos-->
-                    <section>
-                        <h2>Cursos</h2>
-                        <ul>
-                            <li>Web moderno com JS avançado, Udemy - Conclusão 2021</li>
-                            <li>Inglês - English Conversation Course - Cursando</li>
-                            <li>NextLevel - Rocketseat - Conclusão 2021</li>
-                            <li>Logica de Programação - SENAI - Conclusão 2019</li>
-                            <p></p>
-                        </ul>
-                    </section>
-                </div>
-
-                <!--CONTEUDO LADO DIREITO-->
-                <div class="coluna coluna direita">
-
-                    <section>
-                        <h2>Experiencia</h2>
-                        <ul>
-                            <li>
-                                <h3>Professor de Tennis</h3>
-                                <strong>Empresa: Big Ball - desde Setembro/2017 - até o momento</strong>
-
-                            </li>
-                            <!-- <li>
-                                <h3>Facilitador de treinamento</h3>
-                                <strong>Nome da empresa big ball teacher - tempo integral</strong>
-                                <p>Período do empregador de 2020 - ate o moemnto</p>
-                            </li>
-                            <li>
-                                <h3>Facilitador de treinamento</h3>
-                                <strong>Nome da empresa big ball teacher - tempo integral</strong>
-                                <p>Período do empregador de 2020 - ate o moemnto</p>
-                            </li> -->
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h2>Formação </h2>
-                        <ul>
-                            <li>
-                                <h3>Analise em Desenvolvimento de Sistemas</h3>
-                                <p>Faculdade - Uninove - SP </p>
-                                <p>Cursando 3°período - Término em 07/2022 </p>
-                            </li>
-
-                    </section>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <footer>
-        <div class="container">
-
-            <nav>
-                <ul class="info-contato">
-                    <li>
-                        <a href="mailto:richard_madrigar99@hotmail.com"><strong>E-mail:
-                            </strong>richard_madrigar99@hotmail.com</a>
-                        <!-- o email que esta em amarelo é o email que redireciona para o email -->
-                    </li>
-                    <li>
-                        <a href="tel:5511985737008"><strong>Telefone:</strong> (11) 9 8573-7008</a>
-                        <!-- em amarelo é o numero que o celular vai redirecionar  -->
-                    </li>
-                    <li>
-                        <a href="#"><strong>Endereço: </strong>Rua Carlo Clausset, 325, São paulo</a> <!--  -->
-                    </li>
-                </ul>
-            </nav>
-
-            <nav>
-                <ul class="redes-sociais">
-                    <li>
-                        <a href="https://www.linkedin.com/in/richard-madrigar-517b0a208">
-                            <img src="./assets/img/instagram.svg" alt="Linkedin">
-                            <p>Linkedin</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/richardMadrigar">
-                            <img src="./assets/img/github-big-logo.svg" alt="Github">
-                            <p>Github</p>
-                        </a>                        
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/madrigarrichard/">
-                            <img src="./assets/img/instagram.svg" alt="Instagran">
-                            <p>Instagran</p>
-                        </a>
-                    </li>
-
-                </ul>
-            </nav>
-
-        </div>
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>
