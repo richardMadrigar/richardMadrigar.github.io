@@ -182,6 +182,22 @@ footer nav .redes-sociais li a img{
         text-align: center;
         display: initial;
     }   
+    label {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 58px;
+        height: 35px;
+        padding: 6px 7px;
+    }
+    label span{
+        background-color: #d4e9ff;
+        width: 23px;
+        height: 23px;
+        display: block;
+        border-radius: 100%;
+        transition: 0.2s;
+    }
 }
 
 @media only screen and (min-width: 991px) {
@@ -202,20 +218,20 @@ header .container {
 }
 label {
     position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 58px;
-    height: 35px;
+    top: 15px;
+    right: 15px;
+    width: 48px;
+    height: 26px;
     background-color: var(--corBackground);
     border-radius: 20px;
-    padding: 6px 7px;
+    padding: 4px 7px;
     box-sizing: border-box;
     cursor: pointer;
 }
 label span{
     background-color: #d4e9ff;
-    width: 23px;
-    height: 23px;
+    width: 18px;
+    height: 18px;
     display: block;
     border-radius: 100%;
     transition: 0.2s;
